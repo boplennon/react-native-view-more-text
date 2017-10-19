@@ -40,14 +40,14 @@ export default ViewMoreText = React.createClass({
     this.isInit = false;
   },
 
-  componentWillReceiveProps(){
-    this.resetData();
+//   componentWillReceiveProps(){
+//     this.resetData();
 
-    this.setState({
-      numberOfLines: null,
-      opacity: 0
-    })
-  },
+//     this.setState({
+//       numberOfLines: null,
+//       opacity: 0
+//     })
+//   },
 
   onLayout(event){
     const {x, y, width, height} = event.nativeEvent.layout;
